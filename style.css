@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap");
+body {
+  background-color: black;
+  color: white;
+}
+nav {
+  height: 64px;
+}
+
+.div1 {
+  width: 700px;
+  float: left;
+}
+p {
+  margin-top: 127px;
+  margin-left: 150px;
+  font-size: 100px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+span {
+  color: #fca61f;
+}
+.l1 {
+  float: right;
+  margin-top: 127px;
+  margin-right: 100px;
+}
+.img1 {
+  height: 64px;
+  width: 150px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: white;
+}
+
+.buttons {
+  overflow: hidden;
+  float: right;
+}
+
+.buttons > div {
+  width: calc(50% - 40px);
+  padding: 20px;
+  float: left;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+}
+
+.buttons a {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+a#link {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.btn,
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-big {
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 5px 24px;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover,
+input[type="submit"]:hover {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-white {
+  border: solid 2px white;
+  background: transparent;
+  color: #fff;
+}
+.btn-white:hover {
+  border: solid 2px #fff;
+  background: #fff;
+  color: white !important;
+}
+.btn-color {
+  background: transparent;
+}
+.btn-color:hover {
+  color: #fff;
+}
+
+.quiz {
+  float: right;
+  margin-top: 200px;
+  margin-right: 150px;
+  font-size: 32px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.span1 {
+  color: #008080;
+}
+.l2 {
+  float: left;
+  margin-top: 192px;
+  margin-left: 100px;
+}
+
+.span1 {
+  font-size: 28px;
+}
+
+.info {
+  float: left;
+  margin-top: 300px;
+  margin-left: 50px;
+  font-size: 28px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.span2 {
+  font-size: 20px;
+  color: bisque;
+}
+
+.contact {
+  float: left;
+  margin-top: 500px;
+  margin-left: 50px;
+  font-size: 28px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  padding-bottom: 300px;
+}
+
+.span3 {
+  font-size: 20px;
+  color: aquamarine;
+}
+
+.footer {
+  float: left;
+  margin-top: 700px;
+  margin-left: 50px;
+}
+.img2 {
+  height: 64px;
+  width: 150px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: white;
+  float: left;
+}

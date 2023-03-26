@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="quizstyle.css" />
+  </head>
+  <body>
+    <h1>Mental Health Assessment</h1>
+
+    <script language="javascript" src="quizscript.js"></script>
+    <p1>
+      The questions below ask about anxiety and worrying. In the last 6 months,
+      have you experienced any of the following symptoms? If so, how often?
+    </p1>
+    <form name="quiz" id="quiz">
+      <div>
+        <p>
+          1] I was very anxious, worried or scared about a lot of things in my
+          life.
+        </p>
+        <p><input type="radio" name="question1" value="Always" />A) Always</p>
+        <p><input type="radio" name="question1" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question1" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question1" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>2] I felt that my worry was out of my control.</p>
+        <p><input type="radio" name="question2" value="Always" />A) Always</p>
+        <p><input type="radio" name="question2" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question2" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question2" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>3] I felt restless, agitated, frantic, or tense.</p>
+        <p><input type="radio" name="question3" value="Always" />A) Always</p>
+        <p><input type="radio" name="question3" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question3" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question3" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>4] How often do you feel stressed or anxious?</p>
+        <p><input type="radio" name="question4" value="Always" />A) Always</p>
+        <p><input type="radio" name="question4" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question4" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question4" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>
+          5] I had trouble sleeping - I could not fall or stay asleep, and/or
+          didn't feel well-rested when I woke up.
+        </p>
+        <p><input type="radio" name="question5" value="Always" />A) Always</p>
+        <p><input type="radio" name="question5" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question5" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question5" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>
+          6] How frequently did you experience panic attacks in the last 6
+          months?
+        </p>
+        <p><input type="radio" name="question6" value="Always" />A) Always</p>
+        <p><input type="radio" name="question6" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question6" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question6" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>7] I feel irritated and annoyed by things in my life.</p>
+        <p><input type="radio" name="question7" value="Always" />A) Always</p>
+        <p><input type="radio" name="question7" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question7" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question7" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>8] I find it really hard to do anything, especially work.</p>
+        <p><input type="radio" name="question8" value="Always" />A) Always</p>
+        <p><input type="radio" name="question8" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question8" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question8" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>9] I am so tired I don’t have the energy to do anything.</p>
+        <p><input type="radio" name="question9" value="Always" />A) Always</p>
+        <p><input type="radio" name="question9" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question9" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question9" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>
+          10] I am irritable or enraged because of minor issues (or for no
+          reason at all).
+        </p>
+        <p><input type="radio" name="question10" value="Always" />A) Always</p>
+        <p><input type="radio" name="question10" value="Often" />B) Often</p>
+        <p>
+          <input type="radio" name="question10" value="Sometimes" />C) Sometimes
+        </p>
+        <p><input type="radio" name="question10" value="Never" />D) Never</p>
+      </div>
+      <br /><br />
+
+      <input type="button" name"" value="I'm done!" onclick="check()"><br />
+      <br />
+    </form>
+    <p id="result"></p>
+    <a href="index.html"
+      ><button
+        class="button"
+        id="quiz"
+        style="margin: 10px 10px 40px 10px; float: right"
+      >
+        Home Page
+      </button></a
+    >
+  </body>
+</html>
